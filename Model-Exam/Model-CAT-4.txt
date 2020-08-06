@@ -1,0 +1,8 @@
+In this exercise, you will implement the Ford-Fulkerson algorithm for finding the maximum flow in a given flow network. To be precise, you will write a function
+
+def maxflow(g:Graph, s:Vertex, t:Vertex) -> int:
+     pass
+
+that takes a directed graph 'g' and two vertices (source and sink) 's' and 't' and returns the value of maximum flow from source 's' to sink 't'. Note again that the function returns the value of maximum flow (of type 'int') and not the flow itself. For the purpose of this exercise, you may assume that there are no edges directed to 's' and no edges directed from 't'.
+
+Since your focus should be on the implementation of the algorithm rather than data structures, I am giving you a basic implementation of graph structures (namely, Vertex, Edge, and Graph). Study this code carefully and use these methods to implement the maxflow function. Of course, you may still need to design some data structures for Flow etc.
